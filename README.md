@@ -2,6 +2,8 @@ Manufacture peripheral Library - MPLib, modified by CooCox in order to add to Co
 
 https://github.com/coocox/MPLib
 
+liuchenzheng
+
 
 General Information
 -------------------------------------------------------------------------------
