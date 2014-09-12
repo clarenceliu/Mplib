@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        DMAC_Demo
+    </Name>
+    <Description>
+         TMPM037 DMAC_Demo Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        DMAC_Demo
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\DMAC\example\DMAC_Demo\src\DMAC_Demo.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

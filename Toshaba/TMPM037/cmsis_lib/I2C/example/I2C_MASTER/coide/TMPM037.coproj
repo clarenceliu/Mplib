@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.7" name="TMPM037">
+  <Target name="template" isCurrent="1">
+    <Device manufacturerId="10" manufacturerName="Toshiba" chipId="468" chipName="TMPM061FWFG" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="TMPM061FWFG"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00020000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00004000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="e:/coide/coide/configuration/programdata/tmpm037/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="TMPM037"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ColinkEx"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="f:/tmpm037/flash/tmpm037_128.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="31" name="Retarget printf" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="example/sw.h" path="../src/sw.h" type="1"/>
+    <File name="lib/inc/tmpm037_i2c.h" path="../../../../lib/inc/tmpm037_i2c.h" type="1"/>
+    <File name="stdio" path="" type="2"/>
+    <File name="lib/inc/tmpm037_adc.h" path="../../../../lib/inc/tmpm037_adc.h" type="1"/>
+    <File name="lib/src/tmpm037_fc.c" path="../../../../lib/src/tmpm037_fc.c" type="1"/>
+    <File name="example/I2C_MASTER.h" path="../src/I2C_MASTER.h" type="1"/>
+    <File name="cmsis_core/core_cmInstr.h" path="../../../../lib/cmsis_core/core_cmInstr.h" type="1"/>
+    <File name="example/tmpm037_i2c_int.c" path="../src/tmpm037_i2c_int.c" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="cmsis_core/core_cmFunc.h" path="../../../../lib/cmsis_core/core_cmFunc.h" type="1"/>
+    <File name="lib/src" path="" type="2"/>
+    <File name="lib/src/tmpm037_tmr16a.c" path="../../../../lib/src/tmpm037_tmr16a.c" type="1"/>
+    <File name="lib/inc/tmpm037_uart.h" path="../../../../lib/inc/tmpm037_uart.h" type="1"/>
+    <File name="example/led.c" path="../src/led.c" type="1"/>
+    <File name="lib/inc/tmpm037_dmac.h" path="../../../../lib/inc/tmpm037_dmac.h" type="1"/>
+    <File name="lib/src/tmpm037_lvd.c" path="../../../../lib/src/tmpm037_lvd.c" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="cmsis_core" path="" type="2"/>
+    <File name="cmsis_boot/system_TMPM037.c" path="../../../../lib/cmsis_boot/system_TMPM037.c" type="1"/>
+    <File name="lib/src/tmpm037_tmrb.c" path="../../../../lib/src/tmpm037_tmrb.c" type="1"/>
+    <File name="lib/src/tmpm037_cg.c" path="../../../../lib/src/tmpm037_cg.c" type="1"/>
+    <File name="lib/inc/tmpm037_tmrb.h" path="../../../../lib/inc/tmpm037_tmrb.h" type="1"/>
+    <File name="example/I2C_MASTER.c" path="../src/I2C_MASTER.c" type="1"/>
+    <File name="lib/src/tmpm037_wdt.c" path="../../../../lib/src/tmpm037_wdt.c" type="1"/>
+    <File name="lib/inc/tmpm037_fc.h" path="../../../../lib/inc/tmpm037_fc.h" type="1"/>
+    <File name="lib/src/tmpm037_uart.c" path="../../../../lib/src/tmpm037_uart.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_TMPM037.c" path="../../../../lib/cmsis_boot/startup/startup_TMPM037.c" type="1"/>
+    <File name="lib/src/tmpm037_i2c.c" path="../../../../lib/src/tmpm037_i2c.c" type="1"/>
+    <File name="lib/inc/tmpm037_tmr16a.h" path="../../../../lib/inc/tmpm037_tmr16a.h" type="1"/>
+    <File name="cmsis_core/core_cm0.h" path="../../../../lib/cmsis_core/core_cm0.h" type="1"/>
+    <File name="example" path="" type="2"/>
+    <File name="lib/src/tmpm037_adc.c" path="../../../../lib/src/tmpm037_adc.c" type="1"/>
+    <File name="lib/inc" path="" type="2"/>
+    <File name="lib/inc/tmpm037_gpio.h" path="../../../../lib/inc/tmpm037_gpio.h" type="1"/>
+    <File name="example/sw.c" path="../src/sw.c" type="1"/>
+    <File name="lib/src/tmpm037_dmac.c" path="../../../../lib/src/tmpm037_dmac.c" type="1"/>
+    <File name="cmsis_boot/TMPM037.h" path="../../../../lib/cmsis_boot/TMPM037.h" type="1"/>
+    <File name="example/tmpm037_i2c_int.h" path="../src/tmpm037_i2c_int.h" type="1"/>
+    <File name="lib/inc/tmpm037_lvd.h" path="../../../../lib/inc/tmpm037_lvd.h" type="1"/>
+    <File name="lib/inc/tx00_common.h" path="../../../../lib/inc/tx00_common.h" type="1"/>
+    <File name="lib/src/tmpm037_gpio.c" path="../../../../lib/src/tmpm037_gpio.c" type="1"/>
+    <File name="lib/inc/tmpm037_wdt.h" path="../../../../lib/inc/tmpm037_wdt.h" type="1"/>
+    <File name="stdio/printf.c" path="stdio/printf.c" type="1"/>
+    <File name="example/led.h" path="../src/led.h" type="1"/>
+    <File name="lib/inc/tmpm037_cg.h" path="../../../../lib/inc/tmpm037_cg.h" type="1"/>
+    <File name="lib" path="" type="2"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="cmsis_boot/system_TMPM037.h" path="../../../../lib/cmsis_boot/system_TMPM037.h" type="1"/>
+  </Files>
+</Project>

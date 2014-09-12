@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        ADC_Data_Read
+    </Name>
+    <Description>
+         TMPM037 ADC_Data_Read Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        ADC_Data_Read
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\ADC\example\ADC_Data_Read\src\ADC_Data_Read.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

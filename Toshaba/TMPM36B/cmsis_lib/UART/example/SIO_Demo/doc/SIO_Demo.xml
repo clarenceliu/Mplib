@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        SIO_Demo
+    </Name>
+    <Description>
+         TMPM36B SIO_Demo Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        SIO_Demo
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\SIO\example\SIO_Demo\src\SIO_Demo.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

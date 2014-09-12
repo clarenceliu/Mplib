@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        PMD_PHASE_OUTPUT
+    </Name>
+    <Description>
+         TMPM36B PMD_PHASE_OUTPUT Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        PMD_PHASE_OUTPUT
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\PMD\example\PMD_PHASE_OUTPUT\src\PMD_PHASE_OUTPUT.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

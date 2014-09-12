@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        I2C_MASTER
+    </Name>
+    <Description>
+         TMPM037 I2C_MASTER Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        I2C_MASTER
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\I2C\example\I2C_MASTER\src\I2C_MASTER.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

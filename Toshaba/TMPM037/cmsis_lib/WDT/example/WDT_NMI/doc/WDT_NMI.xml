@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        WDT_NMI
+    </Name>
+    <Description>
+         TMPM037 WDT_NMI Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        WDT_NMI
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\WDT\example\WDT_NMI\src\WDT_NMI.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

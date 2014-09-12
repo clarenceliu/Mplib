@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        UART_FIFO_Demo
+    </Name>
+    <Description>
+         TMPM037 UART_FIFO_Demo Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        UART_FIFO_Demo
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\UART\example\UART_FIFO_Demo\src\UART_FIFO_Demo.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

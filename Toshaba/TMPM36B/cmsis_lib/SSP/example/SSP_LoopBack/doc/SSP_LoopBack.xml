@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        SSP_LoopBack
+    </Name>
+    <Description>
+         TMPM36B SSP_LoopBack Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        SSP_LoopBack
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\SSP\example\SSP_LoopBack\src\SSP_LoopBack.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

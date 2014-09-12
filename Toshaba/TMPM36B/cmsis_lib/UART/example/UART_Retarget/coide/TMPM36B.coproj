@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.7" name="TMPM36B">
+  <Target name="T" isCurrent="0">
+    <Device manufacturerId="10" manufacturerName="Toshiba" chipId="423" chipName="TMPM369FDFG" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="TMPM369FDFG"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00080000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00020000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="e:/coide/coide/configuration/programdata/tmpm36b/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="TMPM36B"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ColinkEx"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="TMPM36x_512.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Target name="template" isCurrent="1">
+    <Device manufacturerId="10" manufacturerName="Toshiba" chipId="423" chipName="TMPM369FDFG" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="TMPM369FDFG"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00080000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00020000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="e:/coide/coide/configuration/programdata/tmpm36b/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="TMPM36B"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="CMSIS-DAP"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="TMPM36x_512.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="31" name="Retarget printf" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="lib/src/tmpm36b_adc.c" path="../../../../lib/src/tmpm36b_adc.c" type="1"/>
+    <File name="lib/src/tmpm36b_enc.c" path="../../../../lib/src/tmpm36b_enc.c" type="1"/>
+    <File name="example/tmpm36b_uart_int.h" path="../src/tmpm36b_uart_int.h" type="1"/>
+    <File name="example/UART_Retarget.h" path="../src/UART_Retarget.h" type="1"/>
+    <File name="lib/src/tmpm36b_wdt.c" path="../../../../lib/src/tmpm36b_wdt.c" type="1"/>
+    <File name="lib/inc/tmpm36b_fuart.h" path="../../../../lib/inc/tmpm36b_fuart.h" type="1"/>
+    <File name="cmsis_core/core_cmInstr.h" path="../../../../lib/cmsis_core/core_cmInstr.h" type="1"/>
+    <File name="lib/inc/tmpm36b_uart.h" path="../../../../lib/inc/tmpm36b_uart.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="lib/src/tmpm36b_udmac.c" path="../../../../lib/src/tmpm36b_udmac.c" type="1"/>
+    <File name="lib/src/tmpm36b_cg.c" path="../../../../lib/src/tmpm36b_cg.c" type="1"/>
+    <File name="lib/src/tmpm36b_uart.c" path="../../../../lib/src/tmpm36b_uart.c" type="1"/>
+    <File name="lib/inc/tmpm36b_ssp.h" path="../../../../lib/inc/tmpm36b_ssp.h" type="1"/>
+    <File name="lib/inc/tmpm36b_gpio.h" path="../../../../lib/inc/tmpm36b_gpio.h" type="1"/>
+    <File name="lib/inc/tmpm36b_tmrb.h" path="../../../../lib/inc/tmpm36b_tmrb.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="cmsis_core" path="" type="2"/>
+    <File name="lib/inc/tmpm36b_cg.h" path="../../../../lib/inc/tmpm36b_cg.h" type="1"/>
+    <File name="lib/inc/tmpm36b_adc.h" path="../../../../lib/inc/tmpm36b_adc.h" type="1"/>
+    <File name="lib/inc/tmpm36b_ofd.h" path="../../../../lib/inc/tmpm36b_ofd.h" type="1"/>
+    <File name="lib/inc/tmpm36b_pmd.h" path="../../../../lib/inc/tmpm36b_pmd.h" type="1"/>
+    <File name="lib/inc/led.h" path="../../../../lib/inc/led.h" type="1"/>
+    <File name="example" path="" type="2"/>
+    <File name="cmsis_boot/system_TMPM36B.h" path="../../../../lib/cmsis_boot/system_TMPM36B.h" type="1"/>
+    <File name="cmsis_boot/TMPM36B.h" path="../../../../lib/cmsis_boot/TMPM36B.h" type="1"/>
+    <File name="lib/src/tmpm36b_ssp.c" path="../../../../lib/src/tmpm36b_ssp.c" type="1"/>
+    <File name="lib/inc/tmpm36b_fc.h" path="../../../../lib/inc/tmpm36b_fc.h" type="1"/>
+    <File name="lib/inc/tx03_common.h" path="../../../../lib/inc/tx03_common.h" type="1"/>
+    <File name="lib/src/tmpm36b_pmd.c" path="../../../../lib/src/tmpm36b_pmd.c" type="1"/>
+    <File name="lib/src/tmpm36b_gpio.c" path="../../../../lib/src/tmpm36b_gpio.c" type="1"/>
+    <File name="stdio/printf.c" path="stdio/printf.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_TMPM36B.c" path="../../../../lib/cmsis_boot/startup/startup_TMPM36B.c" type="1"/>
+    <File name="lib/src/tmpm36b_rtc.c" path="../../../../lib/src/tmpm36b_rtc.c" type="1"/>
+    <File name="lib/inc/tmpm36b_rmc.h" path="../../../../lib/inc/tmpm36b_rmc.h" type="1"/>
+    <File name="lib/inc/tmpm36b_enc.h" path="../../../../lib/inc/tmpm36b_enc.h" type="1"/>
+    <File name="lib" path="" type="2"/>
+    <File name="lib/inc/tmpm36b_udmac.h" path="../../../../lib/inc/tmpm36b_udmac.h" type="1"/>
+    <File name="example/uart.h" path="../src/uart.h" type="1"/>
+    <File name="lib/inc/tmpm36b_rtc.h" path="../../../../lib/inc/tmpm36b_rtc.h" type="1"/>
+    <File name="stdio" path="" type="2"/>
+    <File name="lib/src/tmpm36b_sbi.c" path="../../../../lib/src/tmpm36b_sbi.c" type="1"/>
+    <File name="lib/inc/tmpm36b_igbt.h" path="../../../../lib/inc/tmpm36b_igbt.h" type="1"/>
+    <File name="cmsis_core/core_cmFunc.h" path="../../../../lib/cmsis_core/core_cmFunc.h" type="1"/>
+    <File name="lib/src" path="" type="2"/>
+    <File name="lib/inc/tmpm36b_sbi.h" path="../../../../lib/inc/tmpm36b_sbi.h" type="1"/>
+    <File name="lib/src/tmpm36b_fc.c" path="../../../../lib/src/tmpm36b_fc.c" type="1"/>
+    <File name="cmsis_boot/system_TMPM36B.c" path="../../../../lib/cmsis_boot/system_TMPM36B.c" type="1"/>
+    <File name="example/uart.c" path="../src/uart.c" type="1"/>
+    <File name="lib/src/led.c" path="../../../../lib/src/led.c" type="1"/>
+    <File name="cmsis_core/core_cm3.h" path="../../../../lib/cmsis_core/core_cm3.h" type="1"/>
+    <File name="lib/src/tmpm36b_lvd.c" path="../../../../lib/src/tmpm36b_lvd.c" type="1"/>
+    <File name="lib/inc" path="" type="2"/>
+    <File name="lib/inc/tmpm36b_wdt.h" path="../../../../lib/inc/tmpm36b_wdt.h" type="1"/>
+    <File name="example/tmpm36b_uart_int.c" path="../src/tmpm36b_uart_int.c" type="1"/>
+    <File name="lib/src/tmpm36b_fuart.c" path="../../../../lib/src/tmpm36b_fuart.c" type="1"/>
+    <File name="lib/src/tmpm36b_rmc.c" path="../../../../lib/src/tmpm36b_rmc.c" type="1"/>
+    <File name="lib/src/sw.c" path="../../../../lib/src/sw.c" type="1"/>
+    <File name="lib/src/tmpm36b_igbt.c" path="../../../../lib/src/tmpm36b_igbt.c" type="1"/>
+    <File name="lib/inc/tmpm36b_lvd.h" path="../../../../lib/inc/tmpm36b_lvd.h" type="1"/>
+    <File name="lib/inc/sw.h" path="../../../../lib/inc/sw.h" type="1"/>
+    <File name="lib/inc/tmpm36b_exb.h" path="../../../../lib/inc/tmpm36b_exb.h" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="lib/src/tmpm36b_ofd.c" path="../../../../lib/src/tmpm36b_ofd.c" type="1"/>
+    <File name="example/UART_Retarget.c" path="../src/UART_Retarget.c" type="1"/>
+    <File name="lib/src/tmpm36b_tmrb.c" path="../../../../lib/src/tmpm36b_tmrb.c" type="1"/>
+    <File name="lib/src/tmpm36b_exb.c" path="../../../../lib/src/tmpm36b_exb.c" type="1"/>
+  </Files>
+</Project>

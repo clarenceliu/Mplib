@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        DemoAB
+    </Name>
+    <Description>
+         TMPM037 DemoAB Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        DemoAB
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\FC\example\DemoAB\src\DemoAB.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        FUART_LoopBack
+    </Name>
+    <Description>
+         TMPM36B FUART_LoopBack Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        FUART_LoopBack
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\FUART\example\FUART_LoopBack\src\FUART_LoopBack.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

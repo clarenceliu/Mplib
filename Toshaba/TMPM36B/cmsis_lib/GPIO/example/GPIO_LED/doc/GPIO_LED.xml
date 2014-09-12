@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        GPIO_LED
+    </Name>
+    <Description>
+         TMPM36B GPIO_LED Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        GPIO_LED
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\GPIO\example\GPIO_LED\src\GPIO_LED.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

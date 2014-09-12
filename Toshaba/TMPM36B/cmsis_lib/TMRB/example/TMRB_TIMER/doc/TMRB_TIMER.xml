@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        TMRB_TIMER
+    </Name>
+    <Description>
+         TMPM36B TMRB_TIMER Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        TMRB_TIMER
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\TMRB\example\TMRB_TIMER\src\TMRB_TIMER.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

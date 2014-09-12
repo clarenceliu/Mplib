@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        LVD_DEMO
+    </Name>
+    <Description>
+         TMPM36B LVD_DEMO Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        LVD_DEMO
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\LVD\example\LVD_DEMO\src\LVD_DEMO.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

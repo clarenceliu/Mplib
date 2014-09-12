@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        SBI_SLAVE
+    </Name>
+    <Description>
+         TMPM36B SBI_SLAVE Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        SBI_SLAVE
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\SBI\example\SBI_SLAVE\src\SBI_SLAVE.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

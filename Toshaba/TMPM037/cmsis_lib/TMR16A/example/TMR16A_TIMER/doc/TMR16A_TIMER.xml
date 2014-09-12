@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        TMR16A_TIMER
+    </Name>
+    <Description>
+         TMPM037 TMR16A_TIMER Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        TMR16A_TIMER
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\TMR16A\example\TMR16A_TIMER\src\TMR16A_TIMER.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        ART_FIFO_Demo
+    </Name>
+    <Description>
+         TMPM36B ART_FIFO_Demo Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        ART_FIFO_Demo
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\UART\example\ART_FIFO_Demo\src\ART_FIFO_Demo.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

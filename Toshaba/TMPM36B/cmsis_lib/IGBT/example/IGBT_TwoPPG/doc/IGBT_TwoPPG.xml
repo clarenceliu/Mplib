@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        IGBT_TwoPPG
+    </Name>
+    <Description>
+         TMPM36B IGBT_TwoPPG Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        IGBT_TwoPPG
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\IGBT\example\IGBT_TwoPPG\src\IGBT_TwoPPG.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        EXB_Demo
+    </Name>
+    <Description>
+         TMPM36B EXB_Demo Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        EXB_Demo
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\EXB\example\EXB_Demo\src\EXB_Demo.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

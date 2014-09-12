@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        RTC_Basic
+    </Name>
+    <Description>
+         TMPM36B RTC_Basic Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        RTC_Basic
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\RTC\example\RTC_Basic\src\RTC_Basic.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

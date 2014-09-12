@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        ADC_Demo
+    </Name>
+    <Description>
+         TMPM36B ADC_Demo Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        ADC_Demo
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\ADC\example\ADC_Demo\src\ADC_Demo.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

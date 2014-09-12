@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--
+    Copyright 2013 coocox.org
+	
+    This file is part of CooCox Softwares.
+-->
+<Device>
+	<Name>TMPM36BFYFG</Name>
+	<Vendor>TOSHIBA</Vendor>
+	<Family>TMPM36B</Family>
+	<Arch>Cortex-M3</Arch>
+	<Description>TOSHIBA's TMPM36BFYFG operates at a maximum speed of 80MHz and features 256 Kbytes of Flash and 66 Kbytes of RAM.</Description>
+	<Parameters>
+		<Parameter>ARM Cortex-M3 microcontroller core</Parameter>
+		<Parameter>DMA controllers: 32 channel</Parameter>
+		<Parameter>watchdog timer: enable</Parameter>
+		<Parameter>Sync. Serial Interface: 3 channel</Parameter>
+		<Parameter>General-purpose serial interface (SIO/UART): 4 channels</Parameter>
+		<Parameter>Full UART: 2 channels</Parameter>
+		<Parameter>I2C/SIO: 3 channels</Parameter>
+		<Parameter>A/D converters(12bit):16 channel</Parameter>
+		<Parameter>timer/counter(16bit):8 channel</Parameter>
+        <Parameter>remote control:1 channel</Parameter>
+        <Parameter>3-phase PWM output:1 channel</Parameter>
+		<Parameter>Multi-purpose timer (MPT):4 channel</Parameter>
+		<Parameter>remote control:1 channel</Parameter>
+		<Parameter>incremental encoder input:1 channel</Parameter>
+		<Parameter>CS/WAIT controller:4 channel</Parameter>
+		<Parameter>RTC:1 channel</Parameter>
+		<Parameter>I/O Ports：74</Parameter>
+	</Parameters>
+	<ReferenceLinks>
+		<Link name="Chips Page">http://www.semicon.toshiba.co.jp/info/lookup.jsp?pid=TMPM36BFYFG&lang=en</Link>
+		<Link name="Chips Datasheet">http://www.semicon.toshiba.co.jp/info/docget.jsp?type=introduction_guide&lang=en&pid=TMPM36BFYFG</Link>
+	</ReferenceLinks>
+	
+	
+	<DebugSetting>$TOOLKIT_CONFIG_DIR$\debugger\TMPM36B.xml</DebugSetting>
+	
+	<Flash>
+		<Block addr="0x00000000" size="0x00080000" read="true" write="false" execute="true" name="Embedded Flash" />	<!-- 512K -->
+	</Flash>
+	
+	<Ram>
+		<Block addr="0x20000000" size="0x00010800" read="true" write="true"  execute="true" name="Embedded RAM" />	    <!-- 128K -->
+	</Ram>
+	
+	<FlashLoader>
+		<loader>$TOOLKIT_FLASH_DIR$\TMPM36B_512.elf</loader>
+	</FlashLoader>
+</Device>

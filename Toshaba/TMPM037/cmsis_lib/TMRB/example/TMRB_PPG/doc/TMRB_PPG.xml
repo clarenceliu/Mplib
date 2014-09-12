@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        TMRB_PPG
+    </Name>
+    <Description>
+         TMPM037 TMRB_PPG Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        TMRB_PPG
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\TMRB\example\TMRB_PPG\src\TMRB_PPG.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

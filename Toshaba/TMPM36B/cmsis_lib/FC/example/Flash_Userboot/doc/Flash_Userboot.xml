@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        Flash_Userboot
+    </Name>
+    <Description>
+         TMPM36B Flash_Userboot Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        Flash_Userboot
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\FC\example\Flash_Userboot\src\Flash_Userboot.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

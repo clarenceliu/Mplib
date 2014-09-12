@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        SIO_Demo
+    </Name>
+    <Description>
+         TMPM037 SIO_Demo Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        SIO_Demo
+    </Tags>
+    <EVKit>
+        TMPM037 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM037\cmsis_lib\UART\example\SIO_Demo\src\SIO_Demo.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

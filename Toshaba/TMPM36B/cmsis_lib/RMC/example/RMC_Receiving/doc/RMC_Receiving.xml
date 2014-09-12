@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        RMC_Receiving
+    </Name>
+    <Description>
+         TMPM36B RMC_Receiving Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        RMC_Receiving
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\RMC\example\RMC_Receiving\src\RMC_Receiving.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

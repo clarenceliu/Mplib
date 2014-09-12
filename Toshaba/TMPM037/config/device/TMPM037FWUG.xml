@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--
+    Copyright 2013 coocox.org
+	
+    This file is part of CooCox Softwares.
+-->
+<Device>
+	<Name>TMPM037FWUG</Name>
+	<Vendor>TOSHIBA</Vendor>
+	<Family>TMPM037</Family>
+	<Arch>Cortex-M0</Arch>
+	<Description>TOSHIBA's TMPM037FWUG operates at a maximum speed of 20MHz and features 128 Kbytes of Flash and 16 Kbytes of RAM.</Description>
+	<Parameters>
+		<Parameter>ARM Cortex-M0 microcontroller core</Parameter>
+		<Parameter>A/D converters(10bit): 8 channels</Parameter>
+		<Parameter>internal data bus width: 32 bit</Parameter>
+		<Parameter>number of I/O ports: 51 ports</Parameter>
+		<Parameter>on-chip debug function: Available</Parameter>
+		<Parameter>timer/counter(16bit): 10 channels</Parameter>
+		<Parameter>UART/SIO: 5 channels</Parameter>
+		<Parameter>voltage detecting circuit:Available</Parameter>
+		</Parameter>
+		<Parameter>watchdog timer:Available</Parameter>
+
+	<ReferenceLinks>
+	 <Link name="Chips Page">http://www.semicon.toshiba.co.jp/info/lookup.jsp?pid=TMPM037FWUG&lang=en</Link>
+	 <Link name="Chips Datasheet">http://www.semicon.toshiba.co.jp/info/lookup.jsp?pid=TMPM037FWUG&lang=en</Link>
+	</ReferenceLinks>
+	
+	
+	<DebugSetting>$TOOLKIT_CONFIG_DIR$\debugger\TMPM037.xml</DebugSetting>
+	
+	<Flash>
+		<Block addr="0x00000000" size="0x00020000" read="true" write="false" execute="true" name="Embedded Flash" />	<!-- 512K -->
+	</Flash>
+	
+	<Ram>
+		<Block addr="0x20000000" size="0x00004000" read="true" write="true"  execute="true" name="Embedded RAM" />	    <!-- 128K -->
+	</Ram>
+	
+	<FlashLoader>
+		<loader>$TOOLKIT_FLASH_DIR$\TMPM037_128.elf</loader>
+	</FlashLoader>
+</Device>

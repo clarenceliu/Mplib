@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        uDMAC_Demo
+    </Name>
+    <Description>
+         TMPM36B uDMAC_Demo Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        uDMAC_Demo
+    </Tags>
+    <EVKit>
+        TMPM36B Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\TMPM36B\cmsis_lib\uDMAC\example\uDMAC_Demo\src\uDMAC_Demo.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+
