@@ -1,0 +1,28 @@
+<Example>
+    <Name>
+        CRYP_AES_DMA
+    </Name>
+    <Description>
+   This example provides a short description of how to use the CRYPTO peripheral to encrypt and decrypt data using AES-128 Algorithm
+     in DMA mode
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        CRYP_AES_DMA
+    </Tags>
+    <EVKit>
+        STM32429I-EVAL evaluation board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F439\cmsis_lib\CRYP\example\CRYP_AES_DMA\Src\CRYP_AES_DMA.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>STM32F4xx_HAL_Driver</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,28 @@
+<Example>
+    <Name>
+        HASH_SHA224SHA256_DMA
+    </Name>
+    <Description>
+   This example provides a short description of HASH digest calculation
+   using SHA1 and MD5 example.
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        HASH_SHA224SHA256_DMA
+    </Tags>
+    <EVKit>
+        STM32429I-EVAL evaluation board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F439\cmsis_lib\HASH\example\HASH_SHA224SHA256_DMA\Src\HASH_SHA224SHA256_DMA.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>STM32F4xx_HAL_Driver</Dependency>
+    </Dependencys>
+</Example>
+
+

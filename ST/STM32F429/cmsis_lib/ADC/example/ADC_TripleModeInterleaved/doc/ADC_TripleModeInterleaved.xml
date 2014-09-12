@@ -1,0 +1,43 @@
+<Example>
+    <Name>
+        ADC_TripleModeInterleaved_Example
+    </Name>
+    <Description>
+		This example provides a short description of how to use the ADC peripheral to 
+		convert a regular channel in Triple interleaved mode using DMA in mode 2 with 
+		6Msps .
+
+		The Triple interleaved delay is configured 5 ADC clk cycles.
+
+		In Triple ADC mode, three DMA requests are generated: 
+		- On the first request, both ADC2 and ADC1 data are transferred (ADC2 data take 
+		  the upper half-word and ADC1 data take the lower half-word). 
+		- On the second request, both ADC1 and ADC3 data are transferred (ADC1 data take
+		  the upper half-word and ADC3 data take the lower half-word).
+		- On the third request, both ADC3 and ADC2 data are transferred (ADC3 data take 
+		  the upper half-word and ADC2 data take the lower half-word) and so on.
+
+		On each DMA request (two data items are available) two half-words representing 
+		two ADC-converted data items are transferred as a word.
+
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        ADC_TripleModeInterleaved
+    </Tags>
+    <EVKit>
+        STM32429I-EVAL evaluation board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F4X9\cmsis_lib\ADC\example\ADC_TripleModeInterleaved\Src\ADC_TripleModeInterleaved_Example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>STM32F4xx_HAL_Driver</Dependency>
+    </Dependencys>
+</Example>
+
+

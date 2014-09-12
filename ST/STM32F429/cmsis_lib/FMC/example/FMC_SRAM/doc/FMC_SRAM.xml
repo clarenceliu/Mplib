@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        FMC_SRAM
+    </Name>
+    <Description>
+  This example provides a description of how to enable and disable the Static random access memory(SRAM) controller 
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        FMC_SRAM
+    </Tags>
+    <EVKit>
+        STM324x9I-EVAL Evaluation Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F429\cmsis_lib\FMC\example\FMC_SRAM\Src\FMC_SRAM_example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>RCC</Dependency>
+    </Dependencys>
+</Example>
+
+

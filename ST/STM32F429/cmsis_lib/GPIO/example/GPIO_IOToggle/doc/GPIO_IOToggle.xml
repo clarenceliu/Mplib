@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+       GPIO_IOToggle
+    </Name>
+    <Description>
+        This example configures GPIO to LED , then turn on the LED or turn off the LED.
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        GPIO
+    </Tags>
+    <EVKit>
+        STM324x9I-EVAL Evaluation Board
+    </EVKit>
+    <Files>
+        <File>
+           $REPO_ROOT$\ST\STM32F429\cmsis_lib\GPIO\example\GPIO_IOToggle\Src\GPIO_IOToggle_Example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>RCC</Dependency>
+    </Dependencys>
+</Example>
+
+

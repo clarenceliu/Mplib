@@ -1,0 +1,29 @@
+<Example>
+    <Name>
+        CRYP_AESModes
+    </Name>
+    <Description>
+   This example provides a short description of how to use the CRYPTO
+   peripheral to encrypt and decrypt data using AES in chaining modes
+   (ECB, CBC, CTR) and all key sizes (128, 192, 256) Algorithm.
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        CRYP_AESModes
+    </Tags>
+    <EVKit>
+        STM32429I-EVAL evaluation board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F439\cmsis_lib\CRYP\example\CRYP_AESModes\Src\CRYP_AESModes.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>STM32F4xx_HAL_Driver</Dependency>
+    </Dependencys>
+</Example>
+
+

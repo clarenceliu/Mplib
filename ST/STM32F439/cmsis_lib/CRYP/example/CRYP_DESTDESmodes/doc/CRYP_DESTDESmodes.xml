@@ -1,0 +1,29 @@
+<Example>
+    <Name>
+        CRYP_DESTDESmodes
+    </Name>
+    <Description>
+   This example provides a short description of how to use the CRYPTO
+   peripheral to encrypt and decrypt data using DES and TDES in all
+   modes (ECB, CBC) Algorithm
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        CRYP_DESTDESmodes
+    </Tags>
+    <EVKit>
+        STM32429I-EVAL evaluation board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F439\cmsis_lib\CRYP\example\CRYP_DESTDESmodes\Src\CRYP_DESTDESmodes.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>STM32F4xx_HAL_Driver</Dependency>
+    </Dependencys>
+</Example>
+
+

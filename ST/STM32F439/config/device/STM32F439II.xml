@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--
+    Copyright 2013 coocox.org
+	
+    This file is part of CooCox Softwares.
+-->
+<Device>
+	<Name>STM32F439II</Name>
+	<Vendor>ST</Vendor>
+	<Family>STM32F439xx</Family>
+	<Arch>Cortex-M4</Arch>
+	<Description>ST's STM32F439II operates at a maximum speed of 180MHz and features 2048 Kbytes of Flash and  256 Kbytes of RAM.</Description>
+	<Parameters>
+		<Parameter>12 channel 16-bit timers;2 channel 32-bit timers; 24-bit down counter;2¡ÁWDG,RTC;24¡Á12-bit A/D converter;140¡ÁI/Os;2¡Á12-bit D/A converter;6xSPI;1xSAI;2xI2S;3xI2C;4xUSART(IrDA, ISO 7816);4xUART;2xUSB OTG FS/HS;2xCAN;Ethernet MAC10/100;SDIO</Parameter>
+	</Parameters>
+	<ReferenceLinks>
+		<Link name="Chips Page">http://www.stmicroelectronics.com.cn/web/cn/catalog/mmc/FM141/SC1169/SS1577/LN1806/PF253568</Link>
+		<Link name="Chips Datasheet">http://www.stmicroelectronics.com.cn/st-web-ui/static/active/cn/resource/technical/document/datasheet/DM00071990.pdf</Link>
+	</ReferenceLinks>
+	
+	
+	<DebugSetting>$TOOLKIT_CONFIG_DIR$\debugger\STM32F439xx.xml</DebugSetting>
+	
+	<Flash>
+		<Block addr="0x08000000" size="0x00200000" read="true" write="false" execute="true" name="Embedded Flash" />	<!-- 32K -->
+	</Flash>
+	
+	<Ram>
+		<Block addr="0x10000000" size="0x00010000" read="true" write="true"  execute="true" name="Embedded RAM" />
+		<Block addr="0x20000000" size="0x00030000" read="true" write="true"  execute="true" name="Embedded RAM" />	    <!-- 4K -->
+	</Ram>
+	
+	<FlashLoader>
+		<loader>$TOOLKIT_FLASH_DIR$\STM32F439xx_2048.elf</loader>
+	</FlashLoader>
+</Device>

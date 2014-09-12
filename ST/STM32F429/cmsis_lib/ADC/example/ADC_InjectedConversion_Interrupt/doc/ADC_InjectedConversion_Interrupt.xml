@@ -1,0 +1,46 @@
+<Example>
+    <Name>
+        ADC_InjectedConversion_Interrupt_Example
+    </Name>
+    <Description>
+		This example describes how to interrupt continuous ADC3 regular channel8 conversion 
+		using ADC3 injected channel12 and how to get the converted value of this conversion.
+
+		The ADC3 is configured to convert continuously regular channel8(for STM324x9I-EVAL RevB)
+		and convert injected channel12 (connected to PC.2) when injected conversion starts
+		(after one seconde of the start of regular channel).
+
+		Each time a regular channel end of conversion occurs an interrupt is generated 
+		and the converted data of ADC3 DR register is affected to the uhADCxConvertedRegValue 
+		variable in the ADC conversion complete callback function. After one seconde of
+		the start of regular channel8 conversion the injected channel12 conversion starts 
+		so regular conversion is temporary interrupted until the end of injected conversion. 
+		When the injected conversion is finished, an interrupt is generated, and the  
+		converted injected data of ADC3 DR register is affected to the uhADCxConvertedInjValue  
+		variable in the ADC conversion complete callback function.     
+
+		In this example, the system clock is 144MHz, APB2 = 72MHz and ADC clock = APB2/2. 
+		Since ADC3 clock is 36 MHz and sampling time is set to 3 cycles, the conversion 
+		time to 12bit data is 12 cycles so the total conversion time is (12+3)/36= 0.41us(2.4Msps).
+
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        ADC_InjectedConversion_Interrupt
+    </Tags>
+    <EVKit>
+        STM32429I-EVAL evaluation board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F4X9\cmsis_lib\ADC\example\ADC_InjectedConversion_Interrupt\Src\ADC_InjectedConversion_Interrupt_Example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>STM32F4xx_HAL_Driver</Dependency>
+    </Dependencys>
+</Example>
+
+

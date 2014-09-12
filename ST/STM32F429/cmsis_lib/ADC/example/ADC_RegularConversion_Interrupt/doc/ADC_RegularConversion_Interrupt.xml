@@ -1,0 +1,36 @@
+<Example>
+    <Name>
+        ADC_RegularConversion_Interrupt_Example
+    </Name>
+    <Description>
+		This example describes how to use the ADC3 and DMA to transfer continuously 
+		converted data from ADC3 to memory.
+		The ADC3 is configured to convert continuously channel8(for STM324x9I-EVAL RevB).
+		Each time an end of conversion occurs the DMA transfers, in circular mode, the
+		converted data from ADC3 DR register to the uhADCxConvertedValue variable.
+
+		In this example, the system clock is 144MHz, APB2 = 72MHz and ADC clock = APB2/2. 
+		Since ADC3 clock is 36 MHz and sampling time is set to 3 cycles, the conversion 
+		time to 12bit data is 12 cycles so the total conversion time is (12+3)/36= 0.41us(2.4Msps).
+
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        ADC_RegularConversion_Interrupt
+    </Tags>
+    <EVKit>
+        STM32429I-EVAL evaluation board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F4X9\cmsis_lib\ADC\example\ADC_RegularConversion_Interrupt\Src\ADC_RegularConversion_Interrupt_Example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>STM32F4xx_HAL_Driver</Dependency>
+    </Dependencys>
+</Example>
+
+

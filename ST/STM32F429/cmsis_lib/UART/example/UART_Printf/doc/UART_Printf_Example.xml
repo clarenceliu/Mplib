@@ -1,0 +1,37 @@
+<Example>
+    <Name>
+        UART_Printf_Example
+    </Name>
+    <Description>
+      This example shows how to retarget the C library printf function to the USART. 
+This implementation output the printf message on the Hyperterminal using  USART1 
+(EVAL_COM1).
+
+The USARTx is configured as follow:
+    - BaudRate = 115200 baud  
+    - Word Length = 8 Bits
+    - One Stop Bit
+    - No parity
+    - Hardware flow control disabled (RTS and CTS signals)
+    - Receive and transmit enabled
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        UART_Printf
+    </Tags>
+    <EVKit>
+        STM324x9I-EVAL Evaluation Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F429\cmsis_lib\UART\example\UART_Printf\src\UART_Printf_Example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>RCC,GPIO,C Library</Dependency>
+    </Dependencys>
+</Example>
+
+

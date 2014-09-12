@@ -1,0 +1,28 @@
+<Example>
+    <Name>
+        FLASH_EraseProgram
+    </Name>
+    <Description>
+  This example provides a description of how to enable and disable the erase protection
+for the STM32F4xx FLASH
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        FLASH_EraseProgram
+    </Tags>
+    <EVKit>
+        STM324x9I-EVAL Evaluation Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F429\cmsis_lib\FLASH\example\FLASH_EraseProgram\Src\FLASH_ErasePragam_example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>RCC</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,30 @@
+<Example>
+    <Name>
+       LTDC_Display_1Layer
+    </Name>
+    <Description>
+The LCD-TFT (Liquid Crystal Display - Thin Film Transistor) display controller provides a 
+parallel digital RGB (Red, Green, Blue) and signals for horizontal, vertical synchronisation, 
+Pixel Clock and Data Enable as output to interface directly to a variety of LCD and TFT 
+panels.
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+       LTDC_Display_1Layer
+    </Tags>
+    <EVKit>
+        STM324x9I-EVAL Evaluation Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F429\cmsis_lib\LTDC\example\LTDC_Display_1Layer\Src\LTDC_Display_1Layer_Example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>RCC,NVIC,EXTI,GPIO</Dependency>
+    </Dependencys>
+</Example>
+
+

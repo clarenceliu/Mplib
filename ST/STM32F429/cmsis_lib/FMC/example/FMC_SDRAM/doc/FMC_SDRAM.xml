@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        FMC_SDRAM
+    </Name>
+    <Description>
+  This example provides a description of how to enable and disable The Synchronous DRAM controller 
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        FMC_SDRAM
+    </Tags>
+    <EVKit>
+        STM324x9I-EVAL Evaluation Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F429\cmsis_lib\FMC\example\FMC_SDRAM\Src\FMC_SDRAM_example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>RCC</Dependency>
+    </Dependencys>
+</Example>
+
+

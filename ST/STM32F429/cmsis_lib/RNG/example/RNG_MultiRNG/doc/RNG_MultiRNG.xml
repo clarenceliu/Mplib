@@ -1,0 +1,29 @@
+<Example>
+    <Name>
+        RNG_MultiRNG
+    </Name>
+    <Description>
+The RNG processor is a random number generator, based on a continuous analog noise, 
+that provides a random 32-bit value to the host when read. 
+The RNG passed the FIPS PUB 140-2 (2001 October 10) tests with a success ratio of 99%.
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+        HSE,NMI ISR
+    </Tags>
+    <EVKit>
+        STM324x9I-EVAL  Evaluation Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F429\cmsis_lib\RNG\example\RNG_MultiRNG\src\RNG_MultiRNG_Example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency> GPIO, RCC,USART,EXTI,SYSCFG,SPI,MISC,I2C</Dependency>
+    </Dependencys>
+</Example>
+
+

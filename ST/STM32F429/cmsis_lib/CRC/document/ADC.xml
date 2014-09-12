@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<Component>
+  <Name>ADC</Name>
+  <Description>MB9FB568R Analog-to-Digital Converter</Description>
+  <Category>Peripheral</Category>
+  <Version>1.200</Version>
+  <Tags>ADC</Tags>
+  
+  <files>
+    <File>$REPO_ROOT$\spanspec\cmsis_lib\lib\inc\adc.h</File>
+    <File>$REPO_ROOT$\spanspec\cmsis_lib\lib\src\adc.c</File>
+  </files>
+  
+  <CoIDEFiles>
+    <File>$PROJECT_ROOT$\cmsis_lib\include\adc.h</File>
+    <File>$PROJECT_ROOT$\cmsis_lib\source\adc.c</File>
+  </CoIDEFiles>
+  
+  <Dependencys>
+    <Dependency>CMSIS_BOOT</Dependency>
+    <Dependency>ADC</Dependency>
+  </Dependencys>
+  
+  <SupportDevices>
+    <Device>MB9FBXXX</Device>
+  </SupportDevices>
+
+</Component>

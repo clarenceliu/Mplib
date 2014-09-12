@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        GPIO_EXIT
+    </Name>
+    <Description>
+  This example provides a description of how to enable and disable GPIO EXIT.
+    </Description>
+    <Version>
+        1.0.0
+    </Version>
+    <Tags>
+       GPIO_EXIT
+    </Tags>
+    <EVKit>
+        STM324x9I-EVAL Evaluation Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\ST\STM32F429\cmsis_lib\GPIO\example\FMC_SRAM\Src\GPIO_EXIT_example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>RCC</Dependency>
+    </Dependencys>
+</Example>
+
+
