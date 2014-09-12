@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        ACMP_Sigma_Delta
+    </Name>
+    <Description>
+         Nano1xx ACMP_Sigma_Delta Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        ACMP_Sigma_Delta
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\acmp\example\ACMP_Sigma_Delta\src\ACMP_Sigma_Delta.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

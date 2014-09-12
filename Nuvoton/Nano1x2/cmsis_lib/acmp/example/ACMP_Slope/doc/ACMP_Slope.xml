@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        ACMP_Slope
+    </Name>
+    <Description>
+        Nano1xx ACMP Slope Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        ACMP_Slope
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\acmp\example\ACMP_Slope\src\ACMP_Slope.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

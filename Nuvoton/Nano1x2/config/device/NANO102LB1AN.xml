@@ -1,0 +1,35 @@
+ <?xml version="1.0" ?>
+<!--
+    Copyright 2013 coocox.org
+	
+    This file is part of CooCox Softwares.
+-->
+<Device>
+	<Name>NANO102LB1AN</Name>
+	<Vendor>NUVOTON</Vendor>
+	<Family>NANO102</Family>
+	<Arch>Cortex-M0</Arch>
+	<Description>NUVOTON's NANO102LB1AN operates at a maximum speed of 12KHz and features 16 Kbytes of Flash and 4 Kbytes of RAM.</Description>
+	<Parameters>
+		<Parameter>40*I\O,32bit 4*Timer,4*UART,2*SPI,2*I2C,2*Comp,16bit 4*PWM,7*ADC,RTC,IRC,4*PDMA,ISP,ICP</Parameter>
+	</Parameters>
+	<ReferenceLinks>
+		<Link name="Chips Page">http://www.nuvoton.com/hq/products/microcontrollers/arm-cortex-m0-mcus/nano100-102-base-series/nano102lb1an/?__locale=zh</Link>
+		<Link name="Chips Datasheet">http://www.nuvoton.com/hq/products/microcontrollers/arm-cortex-m0-mcus/nano100-102-base-series/Data-Sheet/?__locale=zh&resourcePage=Y</Link>
+	</ReferenceLinks>
+	
+	
+	<DebugSetting>$TOOLKIT_CONFIG_DIR$\debugger\NANO102.xml</DebugSetting>
+	
+	<Flash>
+		<Block addr="0x00000000" size="0x00004000" read="true" write="false" execute="true" name="Embedded Flash" />	<!-- 32K -->
+	</Flash>
+	
+	<Ram>
+		<Block addr="0x20000000" size="0x00001000" read="true" write="true"  execute="true" name="Embedded RAM" />	    <!-- 12K -->
+	</Ram>
+	
+	<FlashLoader>
+		<loader>$TOOLKIT_FLASH_DIR$\NANO102_16.elf</loader>
+	</FlashLoader>
+</Device>

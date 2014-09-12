@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        PDMA_EXAMPLE
+    </Name>
+    <Description>
+         Nano1xx PDMA_EXAMPLE Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        PDMA_EXAMPLE
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\pdma\example\PDMA_EXAMPLE\src\PDMA_EXAMPLE.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

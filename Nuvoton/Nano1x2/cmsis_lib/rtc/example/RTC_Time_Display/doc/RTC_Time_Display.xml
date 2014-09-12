@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        RTC_Time_Display
+    </Name>
+    <Description>
+         Nano1xx RTC_Time_Display Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        RTC_Time_Display
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\rtc\example\RTC_Time_Display\src\RTC_Time_Display.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

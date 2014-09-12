@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        FMC_IAP
+    </Name>
+    <Description>
+         Nano1xx FMC_IAP Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        FMC_IAP
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\fmc\example\FMC_IAP\src\FMC_IAP.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

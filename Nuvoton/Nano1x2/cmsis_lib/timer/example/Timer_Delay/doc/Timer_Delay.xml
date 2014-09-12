@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        Timer_Delay
+    </Name>
+    <Description>
+         Nano1xx Timer_Delay Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        Timer_Delay
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\timer\example\Timer_Delay\src\Timer_Delay.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

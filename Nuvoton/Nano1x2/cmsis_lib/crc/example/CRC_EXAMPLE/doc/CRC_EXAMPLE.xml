@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        CRC_EXAMPLE
+    </Name>
+    <Description>
+         Nano1xx CRC_EXAMPLE Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        CRC_EXAMPLE
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\crc\example\CRC_EXAMPLE\src\CRC_EXAMPLE.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

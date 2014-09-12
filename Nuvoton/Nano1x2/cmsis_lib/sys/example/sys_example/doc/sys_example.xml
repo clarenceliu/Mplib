@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        sys_example
+    </Name>
+    <Description>
+         Nano1xx sys_example Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        sys_example
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\sys\example\sys_example\src\sys_example.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

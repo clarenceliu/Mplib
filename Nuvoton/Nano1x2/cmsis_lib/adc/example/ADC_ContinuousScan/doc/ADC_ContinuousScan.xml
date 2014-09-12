@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        ADC_ContinuousScan
+    </Name>
+    <Description>
+         Nano1xx ADC_ContinuousScan Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        ADC_ContinuousScan
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\acmp\example\ADC_ContinuousScan\src\ADC_ContinuousScan.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

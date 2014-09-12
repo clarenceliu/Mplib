@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        WDT_TimeoutReset
+    </Name>
+    <Description>
+         NUC029xAN WDT_TimeoutReset Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        WDT_TimeoutReset
+    </Tags>
+    <EVKit>
+        NUC029xAN Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\NUC029xAN\cmsis_lib\wdt\WDT_TimeoutReset\src\WDT_TimeoutReset.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib ,  SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        RTC_Alarm_Test
+    </Name>
+    <Description>
+         Nano1xx RTC_Alarm_Test Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        RTC_Alarm_Test
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\rtc\example\RTC_Alarm_Test\src\RTC_Alarm_Test.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

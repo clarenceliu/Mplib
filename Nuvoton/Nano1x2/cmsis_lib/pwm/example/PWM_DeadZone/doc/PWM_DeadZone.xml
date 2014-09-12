@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        PWM_DeadZone
+    </Name>
+    <Description>
+         Nano1xx PWM_DeadZone Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        PWM_DeadZone
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\pwm\example\PWM_DeadZone\src\PWM_DeadZone.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

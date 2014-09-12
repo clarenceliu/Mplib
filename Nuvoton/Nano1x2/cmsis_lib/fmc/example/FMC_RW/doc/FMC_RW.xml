@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        FMC_RW
+    </Name>
+    <Description>
+         Nano1xx FMC_RW Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        FMC_RW
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\FMC\example\FMC_RW\src\FMC_RW.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

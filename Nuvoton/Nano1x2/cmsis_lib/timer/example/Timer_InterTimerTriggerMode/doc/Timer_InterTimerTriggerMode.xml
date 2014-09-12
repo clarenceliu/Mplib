@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        Timer_InterTimerTriggerMode
+    </Name>
+    <Description>
+         Nano1xx Timer_InterTimerTriggerMode Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        Timer_InterTimerTriggerMode
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\timer\example\Timer_InterTimerTriggerMode\src\Timer_InterTimerTriggerMode.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

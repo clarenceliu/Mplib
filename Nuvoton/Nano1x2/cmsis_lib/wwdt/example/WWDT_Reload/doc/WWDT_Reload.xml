@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        WWDT_Reload
+    </Name>
+    <Description>
+         Nano1xx WWDT_Reload Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        WWDT_Reload
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\wwdt\example\WWDT_Reload\src\WWDT_Reload.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

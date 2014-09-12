@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        Timer_TriggerCountingMode
+    </Name>
+    <Description>
+         Nano1xx Timer_TriggerCountingMode Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        Timer_TriggerCountingMode
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\timer\example\Timer_TriggerCountingMode\src\Timer_TriggerCountingMode.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

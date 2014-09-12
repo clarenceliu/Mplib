@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        ADC_ContinuousScanMode
+    </Name>
+    <Description>
+         NUC029xAN ADC_ContinuousScanMode Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        ADC_ContinuousScanMode
+    </Tags>
+    <EVKit>
+        NUC029xAN Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\NUC029xAN\cmsis_lib\adc\ADC_ContinuousScanMode\src\ADC_ContinuousScanMode.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib ,  SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        LCD_Print_Text_Test
+    </Name>
+    <Description>
+         Nano1xx LCD_Print_Text_Test Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        LCD_Print_Text_Test
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\lcd\example\LCD_Print_Text_Test\src\LCD_Print_Text_Test.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

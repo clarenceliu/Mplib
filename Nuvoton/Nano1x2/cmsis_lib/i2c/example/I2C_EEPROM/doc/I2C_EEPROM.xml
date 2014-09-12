@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        I2C_EEPROM
+    </Name>
+    <Description>
+         Nano1xx I2C_EEPROM Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        I2C_EEPROM
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\i2c\example\I2C_EEPROM\src\I2C_EEPROM.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        LCD_Blinking_Test
+    </Name>
+    <Description>
+         Nano1xx LCD_Blinking_Test Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        LCD_Blinking_Test
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\lcd\example\LCD_Blinking_Test\src\LCD_Blinking_Test.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

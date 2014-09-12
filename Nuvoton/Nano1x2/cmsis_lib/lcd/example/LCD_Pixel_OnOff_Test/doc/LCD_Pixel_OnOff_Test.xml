@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        LCD_Pixel_OnOff_Test
+    </Name>
+    <Description>
+         Nano1xx LCD_Pixel_OnOff_Test Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        LCD_Pixel_OnOff_Test
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\lcd\example\LCD_Pixel_OnOff_Test\src\LCD_Pixel_OnOff_Test.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

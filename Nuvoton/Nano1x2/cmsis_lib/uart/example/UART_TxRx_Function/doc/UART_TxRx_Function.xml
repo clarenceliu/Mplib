@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        UART_TxRx_Function
+    </Name>
+    <Description>
+         Nano1xx UART_TxRx_Function Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        UART_TxRx_Function
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\uart\example\UART_TxRx_Function\src\UART_TxRx_Function.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

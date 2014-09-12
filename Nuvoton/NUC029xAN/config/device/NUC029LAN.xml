@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--
+    Copyright 2013 coocox.org
+	
+    This file is part of CooCox Softwares.
+-->
+<Device>
+	<Name>NUC029LAN</Name>
+	<Vendor>NUVOTON</Vendor>
+	<Family>NUC029xAN</Family>
+	<Arch>Cortex-M0</Arch>
+	<Description>NUVOTON's NUC029LAN operates at a maximum speed of 50MHz and features 64 Kbytes of Flash and 4 Kbytes of RAM.</Description>
+	<Parameters>
+		<Parameter>40*GPIOs,4*32bit-Timers,WDT,WWDT,4*16bit-PWM,2*UART,2*SPI,2*I2C,ADC,4*ACMP,EBI</Parameter>
+	</Parameters>
+	<ReferenceLinks>
+		<Link name="Chips Page">http://www.nuvoton.com/hq/products/microcontrollers/arm-cortex-m0-mcus/nuc029-series/nuc029lan/?__locale=en</Link>
+		<Link name="Chips Datasheet">http://www.nuvoton.com/resource-files/DS_NUC029_Series_EN_Rev1.00.pdf</Link>
+	</ReferenceLinks>
+	
+	
+	<DebugSetting>$TOOLKIT_CONFIG_DIR$\debugger\NUC029xAN.xml</DebugSetting>
+	
+	<Flash>
+		<Block addr="0x00000000" size="0x00010000" read="true" write="false" execute="true" name="Embedded Flash" />	<!-- 64K -->
+	</Flash>
+	
+	<Ram>
+		<Block addr="0x20000000" size="0x00001000" read="true" write="true"  execute="true" name="Embedded RAM" />	    <!-- 4K -->
+	</Ram>
+	
+	<FlashLoader>
+		<loader>$TOOLKIT_FLASH_DIR$\NUC029xAN.elf</loader>
+	</FlashLoader>
+</Device>

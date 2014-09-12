@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        PWM_Capture
+    </Name>
+    <Description>
+         NUC029xAN PWM_Capture Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        PWM_Capture
+    </Tags>
+    <EVKit>
+        NUC029xAN Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\NUC029xAN\cmsis_lib\pwm\PWM_Capture\src\PWM_Capture.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib ,  SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

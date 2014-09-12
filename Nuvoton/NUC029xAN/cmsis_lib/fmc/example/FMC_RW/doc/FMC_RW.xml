@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        FMC_RW
+    </Name>
+    <Description>
+         NUC029xAN FMC_RW Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        FMC_RW
+    </Tags>
+    <EVKit>
+        NUC029xAN Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\NUC029xAN\cmsis_lib\fmc\FMC_RW\src\FMC_RW.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib ,  SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

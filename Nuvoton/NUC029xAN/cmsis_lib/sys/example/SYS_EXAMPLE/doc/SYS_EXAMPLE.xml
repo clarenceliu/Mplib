@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        SYS_EXAMPLE
+    </Name>
+    <Description>
+         NUC029xAN SYS_EXAMPLE Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        SYS_EXAMPLE
+    </Tags>
+    <EVKit>
+        NUC029xAN Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\NUC029xAN\cmsis_lib\sys\SYS_EXAMPLE\src\SYS_EXAMPLE.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib ,  SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

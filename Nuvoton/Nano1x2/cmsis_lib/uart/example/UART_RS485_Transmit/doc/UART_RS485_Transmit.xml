@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        UART_RS485_Transmit
+    </Name>
+    <Description>
+         Nano1xx UART_RS485_Transmit Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        UART_RS485_Transmit
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\uart\example\UART_RS485_Transmit\src\UART_RS485_Transmit.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

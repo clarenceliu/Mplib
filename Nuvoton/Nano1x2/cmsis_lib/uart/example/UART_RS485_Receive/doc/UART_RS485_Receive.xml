@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        UART_RS485_Receive
+    </Name>
+    <Description>
+         Nano1xx UART_RS485_Receive Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        UART_RS485_Receive
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\uart\example\UART_RS485_Receive\src\UART_RS485_Receive.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

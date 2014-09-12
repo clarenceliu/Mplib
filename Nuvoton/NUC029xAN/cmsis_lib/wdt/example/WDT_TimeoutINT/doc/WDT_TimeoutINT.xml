@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        WDT_TimeoutINT
+    </Name>
+    <Description>
+         NUC029xAN WDT_TimeoutINT Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        WDT_TimeoutINT
+    </Tags>
+    <EVKit>
+        NUC029xAN Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\NUC029xAN\cmsis_lib\wdt\WDT_TimeoutINT\src\WDT_TimeoutINT.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib ,  SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        Timer_EventCounter
+    </Name>
+    <Description>
+         Nano1xx Timer_EventCounter Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        Timer_EventCounter
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\timer\example\Timer_EventCounter\src\Timer_EventCounter.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

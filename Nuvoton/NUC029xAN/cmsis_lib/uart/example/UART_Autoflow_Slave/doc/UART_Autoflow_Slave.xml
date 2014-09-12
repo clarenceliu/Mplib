@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        UART_Autoflow_Slave
+    </Name>
+    <Description>
+         NUC029xAN UART_Autoflow_Slave Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        UART_Autoflow_Slave
+    </Tags>
+    <EVKit>
+        NUC029xAN Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\NUC029xAN\cmsis_lib\uart\UART_Autoflow_Slave\src\UART_Autoflow_Slave.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib ,  SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

@@ -1,0 +1,27 @@
+<Example>
+    <Name>
+        GPIO_EXAMPLE
+    </Name>
+    <Description>
+         Nano1xx GPIO_EXAMPLE Sample code
+    </Description>
+    <Version>
+        1.200
+    </Version>
+    <Tags>
+        GPIO_EXAMPLE
+    </Tags>
+    <EVKit>
+        Nano102 Development Board
+    </EVKit>
+    <Files>
+        <File>
+            $REPO_ROOT$\Nano102\cmsis_lib\gpio\example\GPIO_EXAMPLE\src\GPIO_EXAMPLE.c
+        </File>
+    </Files>
+    <Dependencys>
+        <Dependency>UART , C lib , GPIO, SYS</Dependency>
+    </Dependencys>
+</Example>
+
+

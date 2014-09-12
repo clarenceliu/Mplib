@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.7" name="Nano102">
+  <Target name="template" isCurrent="1">
+    <Device manufacturerId="8" manufacturerName="Nuvoton" chipId="180" chipName="NUC120LC1BN" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="NUC120LC1BN"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00008000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00001000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="e:/coide/coide/configuration/programdata/nano102/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="Nano102"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="Nu-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="NUC1xx_32.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="31" name="Retarget printf" path="" type="2"/>
+    <Component id="33" name="Semihosting" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="lib/inc/crc.h" path="../../../../lib/inc/crc.h" type="1"/>
+    <File name="lib/inc/fmc.h" path="../../../../lib/inc/fmc.h" type="1"/>
+    <File name="cmsis_core/core_cmInstr.h" path="../../../../lib/cmsis_core/core_cmInstr.h" type="1"/>
+    <File name="lib/src/i2c.c" path="../../../../lib/src/i2c.c" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="lib/inc/scuart.h" path="../../../../lib/inc/scuart.h" type="1"/>
+    <File name="semihosting/sh_cmd.s" path="semihosting/sh_cmd.s" type="1"/>
+    <File name="lib/inc/gpio.h" path="../../../../lib/inc/gpio.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="lib/inc/wdt.h" path="../../../../lib/inc/wdt.h" type="1"/>
+    <File name="cmsis_core" path="" type="2"/>
+    <File name="lib/src/pdma.c" path="../../../../lib/src/pdma.c" type="1"/>
+    <File name="semihosting/semihosting.c" path="semihosting/semihosting.c" type="1"/>
+    <File name="lib/src/adc.c" path="../../../../lib/src/adc.c" type="1"/>
+    <File name="cmsis_boot/Nano1X2Series.h" path="../../../../lib/cmsis_boot/Nano1X2Series.h" type="1"/>
+    <File name="lib/src/LCDLIB_Panel.c" path="../src/LCDLIB_Panel.c" type="1"/>
+    <File name="lib/src/gpio.c" path="../../../../lib/src/gpio.c" type="1"/>
+    <File name="cmsis_core/core_cm0.h" path="../../../../lib/cmsis_core/core_cm0.h" type="1"/>
+    <File name="example" path="" type="2"/>
+    <File name="lib/src/rtc.c" path="../../../../lib/src/rtc.c" type="1"/>
+    <File name="lib/inc/adc.h" path="../../../../lib/inc/adc.h" type="1"/>
+    <File name="cmsis_boot/startup/startup_Nano1X2Series.c" path="../../../../lib/cmsis_boot/startup/startup_Nano1X2Series.c" type="1"/>
+    <File name="lib/inc/sys.h" path="../../../../lib/inc/sys.h" type="1"/>
+    <File name="lib/inc/wwdt.h" path="../../../../lib/inc/wwdt.h" type="1"/>
+    <File name="lib/inc/sc.h" path="../../../../lib/inc/sc.h" type="1"/>
+    <File name="stdio/printf.c" path="stdio/printf.c" type="1"/>
+    <File name="lib/inc/spi.h" path="../../../../lib/inc/spi.h" type="1"/>
+    <File name="lib" path="" type="2"/>
+    <File name="lib/inc/uart.h" path="../../../../lib/inc/uart.h" type="1"/>
+    <File name="lib/src/timer.c" path="../../../../lib/src/timer.c" type="1"/>
+    <File name="stdio" path="" type="2"/>
+    <File name="lib/src/uart.c" path="../../../../lib/src/uart.c" type="1"/>
+    <File name="lib/inc/lcd.h" path="../../../../lib/inc/lcd.h" type="1"/>
+    <File name="cmsis_boot/system_Nano1X2Series.c" path="../../../../lib/cmsis_boot/system_Nano1X2Series.c" type="1"/>
+    <File name="cmsis_core/core_cmFunc.h" path="../../../../lib/cmsis_core/core_cmFunc.h" type="1"/>
+    <File name="lib/src/crc.c" path="../../../../lib/src/crc.c" type="1"/>
+    <File name="lib/src" path="" type="2"/>
+    <File name="lib/inc/timer.h" path="../../../../lib/inc/timer.h" type="1"/>
+    <File name="semihosting" path="" type="2"/>
+    <File name="lib/inc/LCDLIB.h" path="../../../../../../20140730/NANO102_112_SeriesBSP_CMSIS_V3.00.001/Library/LCDLib/Include/LCDLIB.h" type="1"/>
+    <File name="lib/src/wdt.c" path="../../../../lib/src/wdt.c" type="1"/>
+    <File name="lib/src/fmc.c" path="../../../../lib/src/fmc.c" type="1"/>
+    <File name="lib/inc/acmp.h" path="../../../../lib/inc/acmp.h" type="1"/>
+    <File name="lib/inc/rtc.h" path="../../../../lib/inc/rtc.h" type="1"/>
+    <File name="lib/src/lcd.c" path="../../../../lib/src/lcd.c" type="1"/>
+    <File name="lib/inc/pwm.h" path="../../../../lib/inc/pwm.h" type="1"/>
+    <File name="lib/src/scuart.c" path="../../../../lib/src/scuart.c" type="1"/>
+    <File name="lib/src/spi.c" path="../../../../lib/src/spi.c" type="1"/>
+    <File name="cmsis_boot/system_Nano1X2Series.h" path="../../../../lib/cmsis_boot/system_Nano1X2Series.h" type="1"/>
+    <File name="lib/src/sc.c" path="../../../../lib/src/sc.c" type="1"/>
+    <File name="lib/inc/clk.h" path="../../../../lib/inc/clk.h" type="1"/>
+    <File name="lib/src/clk.c" path="../../../../lib/src/clk.c" type="1"/>
+    <File name="example/LCD_Print_Text_Test.c" path="../src/LCD_Print_Text_Test.c" type="1"/>
+    <File name="lib/inc" path="" type="2"/>
+    <File name="lib/src/sys.c" path="../../../../lib/src/sys.c" type="1"/>
+    <File name="lib/src/LCDLIB.c" path="../../../../../../20140730/NANO102_112_SeriesBSP_CMSIS_V3.00.001/Library/LCDLib/Source/LCDLIB.c" type="1"/>
+    <File name="lib/inc/i2c.h" path="../../../../lib/inc/i2c.h" type="1"/>
+    <File name="semihosting/semihosting.h" path="semihosting/semihosting.h" type="1"/>
+    <File name="lib/inc/pdma.h" path="../../../../lib/inc/pdma.h" type="1"/>
+    <File name="lib/src/pwm.c" path="../../../../lib/src/pwm.c" type="1"/>
+    <File name="lib/src/wwdt.c" path="../../../../lib/src/wwdt.c" type="1"/>
+    <File name="lib/src/acmp.c" path="../../../../lib/src/acmp.c" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+  </Files>
+</Project>
